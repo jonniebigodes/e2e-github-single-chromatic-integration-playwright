@@ -11,13 +11,20 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "init-msw": "msw init public/",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "playwright": "playwright test",
+    "playwright:custom-directory": "playwright test --output custom-test-results",
+    "playwright:ui": "playwright test --ui",
+    "playwright:debug": "playwright test --debug",
+    "playwright:codegen": "playwright codegen",
+    "playwright:report": "playwright show-report"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.44.0",
     "@storybook/addon-a11y": "^7.6.19",
     "@storybook/addon-essentials": "^7.6.6",
     "@storybook/addon-interactions": "^7.6.6",
@@ -27,6 +34,7 @@
     "@storybook/react-vite": "^7.6.6",
     "@storybook/test": "^7.6.5",
     "@storybook/test-runner": "^0.18.1",
+    "@types/node": "^20.12.12",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^4.0.0",

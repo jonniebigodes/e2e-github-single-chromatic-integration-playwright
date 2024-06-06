@@ -17,7 +17,9 @@
     "playwright:ui": "playwright test --ui",
     "playwright:debug": "playwright test --debug",
     "playwright:codegen": "playwright codegen",
-    "playwright:report": "playwright show-report"
+    "playwright:report": "playwright show-report",
+    "test-storybook-help": "test-storybook --help",
+    "chromatic-help": "chromatic --help"
   },
   "dependencies": {
     "react": "^18.2.0",
